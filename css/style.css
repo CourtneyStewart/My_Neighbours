@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+body {
+  background-color: #4d0000;
+}
+h1{
+	color: yellow;
+	}
+p{
+  color: red;
+}
+img{width: 50%;
+height; 50%
+}
+.header{
+	width: 100%
+	300px;
+background-image: url(http://vignette2.wikia.nocookie.net/funnypasta/images/0/03/Do_It_Do_It_Do_it.png/revision/latest?cb=20141019213003)
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50% 35%;
+}
+
+.content {
+	margin-left: 20%;
+	margin-right: 100%
+}
