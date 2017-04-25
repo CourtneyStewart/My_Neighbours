@@ -1,0 +1,105 @@
+.Main-Border {
+	width: 90%;
+	background-color: #FFB6C1;
+	margin: 40px auto 0 auto;
+	height: 890px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.Box-Wall {
+	width: 70%;
+	background-color: #8B008B;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+
+
+
+.Active-Box {
+	width: 90%;
+	height: 440px;
+	background-color: #FF8C00;
+	display: flex;
+}
+
+
+
+
+.LJ-Static {
+height: 40px;
+width: 44px;
+position: fixed;
+background-image: url('../image/Little_Jumps_Standing.png');
+background-size: contain;
+align-items: center;
+margin: 144px auto 0 auto;
+margin-left: 360px;
+visibility: visible;
+
+	
+}	
+
+.LJ-Jumping {
+height: 64px;
+width: 44px;
+margin: 120px auto 0 auto;
+margin-left: 360px;
+position: fixed;
+    background-image: url('../image/CS_Web_Animation_Continuous_Jumping_CROPPED.gif');
+    background-size: contain;
+    visibility: hidden;
+}
+
+.LJ-Munching {
+height: 40px;
+ width: 44px;
+ position: fixed;
+	background-image: url('../image/CS_Web_Animation_Little_Jumps_munches_animation.gif');
+	background-size: contain;
+	align-items: center;
+	margin: 144px auto 0 auto;
+    margin-left: 360px;
+    visibility: hidden;
+}
+
+
+
+
+.Cake-Slice {
+height: 30px;
+width: 36px;
+position: fixed;
+    background-image: url('../image/Little_Jumps_Cake_Ready_For_Eating.png');
+    background-size: contain;
+    align-items: center;
+    margin: 150px auto 0 auto;
+    margin-left: 160px;
+}
+
+
+
+
+.LJ-Static, .LJ-Jumping, .LJ-Munching, .Cake-Slice {
+	background-repeat: no-repeat;
+}
+
+
+
+
+* { outline: red 1px solid;
+}
+
+
+
+
+
+
+
+
+
